@@ -4,7 +4,11 @@
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Inventore veritatis et</h1>
         <p class="col-md-8 fs-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        <button class="btn btn-primary btn-lg" type="button">Read more</button>
+        <button 
+          class="btn btn-primary btn-lg" 
+          type="button"
+          @click="goToArticle()"
+        >Read more</button>
       </div>
     </div>
 
@@ -27,3 +31,17 @@
 
 
 </template>
+
+
+<script>
+export default {
+  mounted(){
+    console.log(this.$router);
+  },
+  methods:{
+    goToArticle(){
+      this.$router.push('/articles');
+    }
+  }
+}
+</script>
