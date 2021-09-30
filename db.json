@@ -1,0 +1,58 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Dolore magnam aliquam",
+      "date": "January 3, 2021",
+      "author":"Mike",
+      "img":"http://placebeard.it/640/480",
+      "excerpt":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "content":"<p>Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><ul><li>Nam libero tempore, cum soluta nobis</li><li>Sed ut perspiciatis unde omnis iste natus</li><li>Nores eos qui ratione voluptatem sequi ne </li></ul><p>I et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quid.</p>"
+    },
+    {
+      "id": 2,
+      "title": "Ut enim ad minima veniam",
+      "date": "December 14, 2021",
+      "author":"Mike",
+      "img":"http://placebeard.it/640/480",
+      "excerpt":"Donec ornare, nunc ut fermentum mollis, neque nunc volutpat ligula, in euismod magna odio ut risus. Duis sagittis ligula ut purus elementum sagittis. Proin tincidunt tristique blandit. Morbi viverra diam erat, quis sollicitudin quam venenatis facilisis. Donec quis nulla tortor. Vivamus cursus",
+      "content":"<p>Mauris euismod turpis vel tellus commodo, eget sodales magna condimentum. Quisque mauris nibh, bibendum vitae risus sit amet, ornare pulvinar neque. Donec quis erat eu nisl gravida interdum. Suspendisse non ultricies sem, a rhoncus libero. Nunc eget arcu tellus. Donec lacus diam, dapibus tincidunt risus id, efficitur dignissim eros. Suspendisse et felis orci. Ut malesuada quam diam, id vulputate quam molestie aliquam. Aenean pellentesque nisi ac lacus iaculis, vitae auctor sem consequat. Pellentesque ornare nisi a ligula mattis pretium. Vestibulum congue turpis congue vulputate eleifend. Aenean semper vehicula mollis. Pellentesque eros sem, efficitur ac odio eget, bibendum posuere mauris. Ut ante odio, maximus ut suscipit vitae, cursus blandit odio. Nam at erat ut tellus eleifend condimentum vitae a leo.</p><ul><li>Nam libero tempore, cum soluta nobis</li><li>Sed ut perspiciatis unde omnis iste natus</li><li>Nores eos qui ratione voluptatem sequi ne </li></ul><p>I et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quid.</p>"
+    },
+    {
+      "id": 3,
+      "title": "Ut malesuada quam diam, id vulputate ",
+      "date": "March 17, 2021",
+      "author":"John",
+      "img":"http://placebeard.it/640/480",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis sapien in felis semper pharetra. Nunc lacinia nunc rutrum massa tempor mattis non quis justo. Curabitur euismod, risus vitae sagittis pulvinar, purus lacus tristique torto,vitae dictum massa lorem a nisl. Etiam ipsum mi, bibendum",
+      "content":"<p>Nulla finibus ante a facilisis vestibulum. In in lectus mi. Proin et facilisis lectus, at efficitur mauris. Aliquam volutpat blandit pharetra. Nullam non lectus sodales, semper massa sodales, tincidunt risus. Nunc et finibus metus. Quisque vel volutpat est, non sodales lorem. Etiam sit amet nisi volutpat, pellentesque augue commodo, aliquet sapien. Curabitur fermentum nulla id quam pulvinar iaculis. Proin suscipit, purus lobortis dictum mollis, purus diam consequat orci, nec ornare ipsum dolor ut neque. Donec scelerisque justo sed ante scelerisque, at mollis metus iaculis. Phasellus vitae diam ipsum. Aliquam viverra tortor dui, ac interdum lorem feugiat et. Donec a lacus porttitor, laoreet tortor sed, aliquam nisi. Donec accumsan, ipsum ac mollis condimentum, libero tellus gravida felis, eu tristique odio turpis at urna. Donec ullamcorper blandit dui, sit amet ullamcorper odio tincidunt nec.</p><ul><li>Nam libero tempore, cum soluta nobis</li><li>Sed ut perspiciatis unde omnis iste natus</li><li>Nores eos qui ratione voluptatem sequi ne </li></ul><p>I et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quid.</p>"
+    },
+    {
+      "id": 4,
+      "title": "Dolore magnam aliquam",
+      "date": "January 3, 2021",
+      "author":"Mike",
+      "img":"http://placebeard.it/640/480",
+      "excerpt":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "content":"<p>Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><ul><li>Nam libero tempore, cum soluta nobis</li><li>Sed ut perspiciatis unde omnis iste natus</li><li>Nores eos qui ratione voluptatem sequi ne </li></ul><p>I et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quid.</p>"
+    },
+    {
+      "id": 5,
+      "title": "Ut enim ad minima veniam",
+      "date": "December 14, 2021",
+      "author":"Mike",
+      "img":"http://placebeard.it/640/480",
+      "excerpt":"Donec ornare, nunc ut fermentum mollis, neque nunc volutpat ligula, in euismod magna odio ut risus. Duis sagittis ligula ut purus elementum sagittis. Proin tincidunt tristique blandit. Morbi viverra diam erat, quis sollicitudin quam venenatis facilisis. Donec quis nulla tortor. Vivamus cursus",
+      "content":"<p>Mauris euismod turpis vel tellus commodo, eget sodales magna condimentum. Quisque mauris nibh, bibendum vitae risus sit amet, ornare pulvinar neque. Donec quis erat eu nisl gravida interdum. Suspendisse non ultricies sem, a rhoncus libero. Nunc eget arcu tellus. Donec lacus diam, dapibus tincidunt risus id, efficitur dignissim eros. Suspendisse et felis orci. Ut malesuada quam diam, id vulputate quam molestie aliquam. Aenean pellentesque nisi ac lacus iaculis, vitae auctor sem consequat. Pellentesque ornare nisi a ligula mattis pretium. Vestibulum congue turpis congue vulputate eleifend. Aenean semper vehicula mollis. Pellentesque eros sem, efficitur ac odio eget, bibendum posuere mauris. Ut ante odio, maximus ut suscipit vitae, cursus blandit odio. Nam at erat ut tellus eleifend condimentum vitae a leo.</p><ul><li>Nam libero tempore, cum soluta nobis</li><li>Sed ut perspiciatis unde omnis iste natus</li><li>Nores eos qui ratione voluptatem sequi ne </li></ul><p>I et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quid.</p>"
+    },
+    {
+      "id": 6,
+      "title": "Ut malesuada quam diam, id vulputate ",
+      "date": "March 17, 2021",
+      "author":"John",
+      "img":"http://placebeard.it/640/480",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis sapien in felis semper pharetra. Nunc lacinia nunc rutrum massa tempor mattis non quis justo. Curabitur euismod, risus vitae sagittis pulvinar, purus lacus tristique torto,vitae dictum massa lorem a nisl. Etiam ipsum mi, bibendum",
+      "content":"<p>Nulla finibus ante a facilisis vestibulum. In in lectus mi. Proin et facilisis lectus, at efficitur mauris. Aliquam volutpat blandit pharetra. Nullam non lectus sodales, semper massa sodales, tincidunt risus. Nunc et finibus metus. Quisque vel volutpat est, non sodales lorem. Etiam sit amet nisi volutpat, pellentesque augue commodo, aliquet sapien. Curabitur fermentum nulla id quam pulvinar iaculis. Proin suscipit, purus lobortis dictum mollis, purus diam consequat orci, nec ornare ipsum dolor ut neque. Donec scelerisque justo sed ante scelerisque, at mollis metus iaculis. Phasellus vitae diam ipsum. Aliquam viverra tortor dui, ac interdum lorem feugiat et. Donec a lacus porttitor, laoreet tortor sed, aliquam nisi. Donec accumsan, ipsum ac mollis condimentum, libero tellus gravida felis, eu tristique odio turpis at urna. Donec ullamcorper blandit dui, sit amet ullamcorper odio tincidunt nec.</p><ul><li>Nam libero tempore, cum soluta nobis</li><li>Sed ut perspiciatis unde omnis iste natus</li><li>Nores eos qui ratione voluptatem sequi ne </li></ul><p>I et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quid.</p>"
+    }
+  ]
+}
