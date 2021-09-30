@@ -9,7 +9,10 @@
                 <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <router-link to="/articles/1">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </router-link>
+
                     </div>
                 </div>
             </div>

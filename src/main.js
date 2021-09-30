@@ -8,6 +8,7 @@ import Footer from './components/header_footer/Footer';
 import Articles from './components/Articles';
 import Contact from './components/Contact';
 import Home from './components';
+import Article from './components/Articles/article';
 
 const app =  createApp(App);
 
@@ -16,7 +17,8 @@ const routes = createRouter({
     routes:[
         { path:'/', component: Home },
         { path:'/articles', component: Articles },
-        { path:'/contact', component: Contact }
+        { path:'/contact', component: Contact },
+        { path:'/articles/:articleId', component: Article }
     ],
     linkActiveClass:'active'
 });
