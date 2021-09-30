@@ -17,7 +17,8 @@ const routes = createRouter({
         { path:'/', component: Home },
         { path:'/articles', component: Articles },
         { path:'/contact', component: Contact }
-    ]
+    ],
+    linkActiveClass:'active'
 });
 
 app.component('app-header',Header);
