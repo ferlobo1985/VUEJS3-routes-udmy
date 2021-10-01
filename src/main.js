@@ -50,16 +50,23 @@ const routes = createRouter({
         //     { path:':articleId', component: Article, props:theData }
         // ] },
         // { path:'/contact', redirect:'/' },
-        { path:'/contact', components: {
+        { path:'/contact', meta:{ authCheck: true }, components: {
             default: Contact,
             notify: Notify
         }, name:'contact'},
-        { path:'/login', component:Login},
+        { path:'/login', component:Login , meta:{ authCheck: true }},
         { path:'/:notFound(.*)', component: NotFound }
     ],
     linkActiveClass:'active'
 });
 
+
+// routes.beforeEach((to,from,next)=>{
+//     if(to.meta.authCheck){
+//         /// do the auth check
+//     }
+//     return next();
+// });
 
 // routes.beforeEach((to,from,next)=>{
 //     const isAuth = false;
