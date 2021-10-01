@@ -98,6 +98,18 @@
   export default {
     created(){
       console.log(this.$route)
+    },
+    beforeRouteEnter(){
+      const isAuth = true;
+      if(!isAuth) return '/login';
+      return true;
+    },
+    beforeRouteUpdate(){
+        //////// 
+    },
+    beforeRouteLeave(){
+      // alert('you need to complete the form before you leave');
+      // return false;
     }
   }
 </script>

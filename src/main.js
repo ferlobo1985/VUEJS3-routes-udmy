@@ -24,11 +24,27 @@ const theData = (route) => {
     }
 }
 
+
+const checkAuth = () => {
+    const isAuth = true;
+    if(!isAuth) return '/login';
+    return true;
+}
+
+const isAdmin = () => {
+    const isAdmin = true;
+    if(!isAdmin) return '/login';
+    return true;
+}
+
+
 const routes = createRouter({
     history: createWebHistory(),
     routes:[
         { path:'/', component: Home },
-        { path:'/articles', component: Articles },
+        { path:'/articles', component: Articles, 
+            beforeEnter:[checkAuth,isAdmin]
+        },
         { path:'/articles/:articleId', component: Article, props:theData },
         // { path:'/articles', component: Articles, children:[
         //     { path:':articleId', component: Article, props:theData }
@@ -45,22 +61,21 @@ const routes = createRouter({
 });
 
 
-routes.beforeEach((to,from,next)=>{
-    const isAuth = false;
+// routes.beforeEach((to,from,next)=>{
+//     const isAuth = false;
 
-    if(to.path === '/'){
-        next()
-    } else {
-        if(to.path !== '/login' && !isAuth) return next({path:'/login'});
-        else if(to.path === '/login' && isAuth) return next({path:'/'})
-        return next();
-    }
-});
+//     if(to.path === '/'){
+//         next()
+//     } else {
+//         if(to.path !== '/login' && !isAuth) return next({path:'/login'});
+//         else if(to.path === '/login' && isAuth) return next({path:'/'})
+//         return next();
+//     }
+// });
 
-
-routes.afterEach(()=>{
-    console.log('after each')
-});
+// routes.afterEach(()=>{
+//     console.log('after each')
+// });
 
 
 app.component('app-header',Header);
