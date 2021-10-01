@@ -1,5 +1,6 @@
 <template>
 
+<div>From props:{{ crazyProp }}</div>
 
 <router-link to="/articles/3">Go to a different article</router-link>
 <div v-if="Object.keys(article).length !== 0">
@@ -41,6 +42,7 @@
 import axios from 'axios';
 
 export default {
+    props:['crazyProp'],
     data() {
         return {
             article: {}
