@@ -57,6 +57,7 @@ routes.beforeEach((to,from,next)=>{
     }
 });
 
+
 routes.afterEach(()=>{
     console.log('after each')
 });
