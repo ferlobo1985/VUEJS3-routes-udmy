@@ -11,6 +11,7 @@ import Home from './components';
 import Article from './components/Articles/article';
 import NotFound from './components/404.vue';
 import Notify from './components/notify.vue';
+import Login from './components/login.vue'
 
 const app =  createApp(App);
 
@@ -37,10 +38,29 @@ const routes = createRouter({
             default: Contact,
             notify: Notify
         }, name:'contact'},
+        { path:'/login', component:Login},
         { path:'/:notFound(.*)', component: NotFound }
     ],
     linkActiveClass:'active'
 });
+
+
+routes.beforeEach((to,from,next)=>{
+    const isAuth = false;
+
+    if(to.path === '/'){
+        next()
+    } else {
+        if(to.path !== '/login' && !isAuth) return next({path:'/login'});
+        else if(to.path === '/login' && isAuth) return next({path:'/'})
+        return next();
+    }
+});
+
+routes.afterEach(()=>{
+    console.log('after each')
+});
+
 
 app.component('app-header',Header);
 app.component('app-footer',Footer);
